@@ -1,0 +1,46 @@
+body, .sidebar h3, .content h2, .sidebar li, .sidebar-single {
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #242424;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid white;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #242424;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.sidebar {
+  width: 320px;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #242424;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow: hidden;
+}
+

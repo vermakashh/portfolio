@@ -1,0 +1,67 @@
+.sidebar {
+    padding: 20px;
+    width: 300px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+  }
+  
+  .sidebar-box {
+    border: 1px solid #ccc;
+    padding: 16px 12px 8px 12px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .sidebar-box-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    background: transparent;
+  }
+  
+  .sidebar-label {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #242424; 
+    z-index: 2;
+  }
+  
+  .sidebar-top-line {
+    flex-grow: 1;
+    height: 1px;
+    background: #ccc;
+    margin-left: -1px;
+    z-index: 1;
+    transform: translateY(8px);
+  }
+  
+  .sidebar-content {
+    margin-top: 10px;
+  }
+  
+  .sidebar-item {
+    padding: 6px 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    color: #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .sidebar-item.active {
+    background-color: rgba(67, 122, 151, 0.5);
+    color: white;
+    font-weight: 600;
+    padding-left: 8px;
+  }
+  
+  .sidebar-empty {
+    font-style: italic;
+    font-size: 13px;
+    color: #aaa;
+  }
+  

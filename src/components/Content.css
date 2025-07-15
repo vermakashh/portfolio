@@ -1,0 +1,15 @@
+.content {
+    padding: 24px;
+    margin: 20px;
+    background-color: #242424;
+    border: 1px solid #888;
+    border-radius: 4px;
+  }
+
+  .content h2 {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
