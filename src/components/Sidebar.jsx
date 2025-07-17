@@ -4,7 +4,7 @@ import "./Sidebar.css";
 const sections = [
   {
     title: "About",
-    items: ["Hello! I'm Akash, a software engineer who enjoys building things that (usually) work."],
+    items: ["Hello! I'm Akash, a final year student who enjoys building things that (usually) work."],
   },
   {
     title: "Education",
@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: "Skills & Tools",
-    items: [],
+    items: ["Skills"],
   },
 ];
 

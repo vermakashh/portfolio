@@ -11,10 +11,5 @@
     text-align: center;
     padding: 0 20px;
   }
-  
-  .typing-text {
-    color:  #437a97 !important;  /* ✅ Applies to both text and cursor */
-    font-size: 42px;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-  
+
+ 
